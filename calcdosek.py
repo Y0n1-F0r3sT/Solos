@@ -1,5 +1,5 @@
 #Calculadora de dose de cloreto de potássio
-print("Olá! Sou sua calculadora de dose de cloreto de potássio para correção de solo.\n Por favor, insira os dados a seguir (em decimal, use ponto ao invés de vírgula): ")
+print("Olá! Sou sua calculadora de dose de cloreto de potássio para correção de solo.\n Esse cálculo é para o aumento do teor absoluto do cloreto de potássio.\n Por favor, insira os dados a seguir (em decimal, use ponto ao invés de vírgula): ")
 print("O teor de K da sua análise de solo: ")
 k_da_analise = float(input())
 print("Agora, o teor que você deseja alcançar de K")
