@@ -6,19 +6,15 @@ print("Agora, o teor que você deseja alcançar de K")
 k_desejado = float(input())
 #Vamos calcular a diferença entre os teores
 diferenca_Kda_Kde = k_desejado - k_da_analise
-#print(diferenca_Kda_Kde)
 #Agora, vamos transformar para miligrama/dm³
 resultado_mg_dm3 = diferenca_Kda_Kde * 391
-#print(resultado_mg_dm3)
 #Vamos transformar agora para kg/ha de K
 resultado_kg_ha = resultado_mg_dm3 * 2
-#print(resultado_kg_ha)
 #multiplicamos por 1,2 para transformar em K2O
 resultado_K2O = resultado_kg_ha * 1.2
 print(resultado_K2O)
 #Dividimos pelo teor de K2O do que tem dentro do cloreto, vamos usar 
 resultado_final = resultado_K2O / 0.6
-#print(resultado_final)
 #resultado será em kg/ha de K
 #print("Seu resultado foi calculado para um teor de 60%")
 print("Seu resultado é de [ " + str(resultado_final) + "kg/ha ]")
