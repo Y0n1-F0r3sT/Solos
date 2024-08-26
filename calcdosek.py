@@ -24,4 +24,4 @@ novo_teor = float(input())
 novo_teor1 = novo_teor / 100
 resultado_novo = resultado_K2O / novo_teor1
 print("Seu resultado para esse teor de K2O é de: [" + str(resultado_novo) + "kg/ha ]")
-#https://github.com/Y0n1-F0r3sT/Lil-codes
+#https://github.com/Y0n1-F0r3sT
